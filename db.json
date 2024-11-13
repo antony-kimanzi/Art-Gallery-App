@@ -1,55 +1,57 @@
 {
-    "artworks": [
-      {
-        "id": 1,
-        "title": "Sunset Over the Ocean",
-        "artist": "Emily Harper",
-        "image": "https://images.unsplash.com/photo-1720465266926-0f3f0d08eca3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A stunning oil painting capturing the vibrant hues of a setting sun over a calm ocean. The colors range from deep oranges to gentle purples, creating a serene and mesmerizing view.",
-        "year": 2021,
-        "medium": "Oil on Canvas",
-        "dimensions": "24 x 36 inches"
-      },
-      {
-        "id": 2,
-        "title": "Abstract Thoughts",
-        "artist": "Liam Chen",
-        "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
-        "year": 2019,
-        "medium": "Acrylic on Wood",
-        "dimensions": "30 x 40 inches"
-      },
-      {
-        "id": 3,
-        "title": "Into the Forest",
-        "artist": "Sophia Martinez",
-        "image": "https://images.unsplash.com/photo-1720272167781-fc80c70efb2f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "An immersive scene of a dense, green forest with sunlight peeking through the trees, bringing life and movement to the serene environment. A calming representation of nature's beauty.",
-        "year": 2020,
-        "medium": "Watercolor on Paper",
-        "dimensions": "18 x 24 inches"
-      },
-      {
-        "id": 4,
-        "title": "City Lights",
-        "artist": "Aiden James",
-        "image": "https://plus.unsplash.com/premium_photo-1661908853318-893732a14e42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A vibrant night scene of a bustling cityscape, with glowing lights illuminating the streets. The artist captures the energy and life of the city at night.",
-        "year": 2022,
-        "medium": "Digital Art",
-        "dimensions": "1080 x 1920 pixels"
-      },
-      {
-        "id": 5,
-        "title": "Whispers of Time",
-        "artist": "Noah Patel",
-        "image": "https://images.unsplash.com/photo-1533749047139-189de3cf06d3?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "description": "A surrealistic representation of time, where clocks are intertwined with elements of nature. The piece explores themes of memory and the fleeting nature of life.",
-        "year": 2018,
-        "medium": "Mixed Media",
-        "dimensions": "40 x 60 inches"
-      }
-    ]
-  }
-  
+  "artworks": [
+    {
+      "id": 1,
+      "title": "Sunset Over the Ocean",
+      "artist": "Emily Harper",
+      "image": "https://images.unsplash.com/photo-1720465266926-0f3f0d08eca3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A stunning oil painting capturing the vibrant hues of a setting sun over a calm ocean. The colors range from deep oranges to gentle purples, creating a serene and mesmerizing view.",
+      "year": 2021,
+      "medium": "Oil on Canvas",
+      "dimensions": "24 x 36 inches"
+    },
+    {
+      "id": 2,
+      "title": "Abstract Thoughts",
+      "artist": "Liam Chen",
+      "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
+      "year": 2019,
+      "medium": "Acrylic on Wood",
+      "dimensions": "30 x 40 inches"
+    },
+    {
+      "id": 3,
+      "title": "Into the Forest",
+      "artist": "Sophia Martinez",
+      "image": "https://images.unsplash.com/photo-1720272167781-fc80c70efb2f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "An immersive scene of a dense, green forest with sunlight peeking through the trees, bringing life and movement to the serene environment. A calming representation of nature's beauty.",
+      "year": 2020,
+      "medium": "Watercolor on Paper",
+      "dimensions": "18 x 24 inches"
+    },
+    {
+      "id": 4,
+      "title": "City Lights",
+      "artist": "Aiden James",
+      "image": "https://plus.unsplash.com/premium_photo-1661908853318-893732a14e42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A vibrant night scene of a bustling cityscape, with glowing lights illuminating the streets. The artist captures the energy and life of the city at night.",
+      "year": 2022,
+      "medium": "Digital Art",
+      "dimensions": "1080 x 1920 pixels"
+    },
+    {
+      "id": 5,
+      "title": "Whispers of Time",
+      "artist": "Noah Patel",
+      "image": "https://images.unsplash.com/photo-1533749047139-189de3cf06d3?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A surrealistic representation of time, where clocks are intertwined with elements of nature. The piece explores themes of memory and the fleeting nature of life.",
+      "year": 2018,
+      "medium": "Mixed Media",
+      "dimensions": "40 x 60 inches"
+    }
+  ],
+  "personalcollections": [
+    
+  ]
+}
