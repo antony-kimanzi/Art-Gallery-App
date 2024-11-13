@@ -19,7 +19,6 @@ export default function Home() {
       art.artist.toLowerCase().includes(query.toLowerCase())
   );
   
-  
   return (
     <div className='main montserrat-font'>
       <h1 className='home-header'>Main Gallery</h1>

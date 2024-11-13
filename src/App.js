@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './pages/Home'
+import PersonalCollection from './pages/PersonalCollection'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './component/Layout';
 function App() {
   return (
       <BrowserRouter>
@@ -11,7 +13,6 @@ function App() {
           </Route>
        </Routes>
       </BrowserRouter>
-    
   );
 }
 
