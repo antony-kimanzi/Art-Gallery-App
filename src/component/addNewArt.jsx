@@ -1,7 +1,6 @@
- 
 import React from 'react'
 
-export default function PersonalCollection() {
+export default function addNewArt() {
   return (
     <div>
       

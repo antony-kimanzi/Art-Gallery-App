@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ArtCards from '../component/ArtCards';
 import {useState, useEffect} from 'react';
@@ -22,3 +23,4 @@ export default function Home() {
     </div>
   )
 }
+
