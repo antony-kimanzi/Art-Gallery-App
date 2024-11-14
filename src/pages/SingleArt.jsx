@@ -3,6 +3,7 @@ import {useEffect,useState} from 'react'
 import { useParams } from 'react-router-dom'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 export default function SingleArt() {
     const{id} = useParams()
@@ -15,6 +16,27 @@ export default function SingleArt() {
         setArt(data)
     });
     },[])
+
+    const handleAddArt = (e) => {
+      e.preventDefault();
+      fetch('http://localhost:3000/personalcollections', {
+        method: 'POST',
+        body: JSON.stringify({
+          title: art.title,
+          artist: art.artist,
+          image: art.image,
+          description: art.description,
+          year: art.year,
+          dimensions: art.dimensions,
+          medium: art.medium,
+        }),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      })
+        .then((response) => response.json())
+        .then((json) => console.log(json));
+    }
 
   return (
     <div>
@@ -29,6 +51,8 @@ export default function SingleArt() {
               <Card.Text><strong>Dimension: </strong>{art.dimensions}</Card.Text>
               <Card.Text><strong>Medium used to paint: </strong>{art.medium}</Card.Text>
             </Card.Body>
+            
+            <Button variant="primary" onClick={handleAddArt}>Add art to personal collection</Button>
           </Card>
         </Col>
     </div>
