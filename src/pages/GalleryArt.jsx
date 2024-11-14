@@ -3,9 +3,12 @@ import {useEffect,useState} from 'react'
 import { useParams } from 'react-router-dom'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import {toast} from 'react-toastify'
 
 export default function GalleryArt() {
+    const nav = useNavigate()
     const{id} = useParams()
     const [art,setArt] = useState({})
 
@@ -38,6 +41,16 @@ export default function GalleryArt() {
         .then((json) => console.log(json));
     }
 
+    function handleDelete(){
+      fetch(`http://localhost:3000/artworks/${id}`,{
+        method:"DELETE",
+      })
+      .then((res) => res.json())
+      .then(() => {
+          nav("/")
+          toast.success("Art deleted successfully");
+      })
+    }
   return (
     <div>
           <Col >
@@ -53,6 +66,7 @@ export default function GalleryArt() {
             </Card.Body>
 
             <Button variant="primary" onClick={handleAddArt}>Add art to personal collection</Button>
+            <Button variant="danger" onClick={handleDelete}>REMOVE ART</Button>
           </Card>
         </Col>
     </div>
