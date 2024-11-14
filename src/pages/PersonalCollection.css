@@ -1,0 +1,28 @@
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .personalcollection-header {
+      color: #51BEF4;
+      margin-bottom: 20px;
+      font-size: 35px;
+      text-decoration: underline solid #51BEF4 2px;
+  }
+  
+  .personalcollection-text {
+      color: #ffffff;
+      line-height: 2em;
+      font-size: 18px;
+  }
+  
+  .personalcollection-subheader {
+      color:#51BEF4;
+      text-decoration: underline solid #51BEF4;
+      font-size: 30px;
+      margin-top: 70px;
+      margin-bottom: 30px;
+  }

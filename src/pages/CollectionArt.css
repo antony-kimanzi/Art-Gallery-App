@@ -1,0 +1,58 @@
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.art-page {
+  color: #ffffff;
+}
+
+.art-page strong {
+  color: #51bef4;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header h1 {
+  font-size: 25px;
+}
+
+.art-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.image-container img {
+  width: 800px;
+  height: 650px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.details-container {
+  max-width: 700px;
+  line-height: 2em;
+}
+
+.details-container h2,
+.details-container p {
+  margin: 20px 0;
+}
+
+.details-container p {
+  font-size: 24px;
+}
+
+.details-container strong {
+  color: #51bef4;
+  font-weight: bold;
+}

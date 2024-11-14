@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
+import "./PersonalCollection.css";
 
 export default function PersonalCollection() {
   const [collection, setCollection] = useState([]);
@@ -13,7 +14,7 @@ export default function PersonalCollection() {
   }, []);
 
   return (
-    <div className="main montserrat-font">
+    <div className="montserrat-font">
       <h1 className="personalcollection-header">Personal Collection</h1>
       <p className="personalcollection-text">
         Your Personal Collection is a curated gallery of artworks that have
@@ -27,7 +28,7 @@ export default function PersonalCollection() {
       <Row xs={1} md={4} className="g-4">
         {collection.map((artwork) => {
           return (
-            <Link to={`/artwork/${artwork.id}`} key={artwork.id}>
+            <Link to={`/personalcollection/${artwork.id}`} key={artwork.id}>
               <Card>
                 <Card.Img
                   variant="top"
@@ -36,7 +37,7 @@ export default function PersonalCollection() {
                 />
                 <Card.Body>
                   <Card.Title>
-                    <strong>Title: </strong>
+                    <strong>Art Name: </strong>
                     {artwork.title}
                   </Card.Title>
                   <Card.Text>

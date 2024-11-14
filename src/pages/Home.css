@@ -6,9 +6,15 @@
   font-style: normal;
 }
 
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .home-header {
     color: #51BEF4;
-    margin-bottom: 20px;
     font-size: 35px;
     text-decoration: underline solid #51BEF4 2px;
 }
@@ -17,6 +23,8 @@
     color: #ffffff;
     line-height: 2em;
     font-size: 18px;
+    padding-right: 10px;
+    padding-left: 14px;
 }
 
 .home-subheader {
