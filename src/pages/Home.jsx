@@ -2,7 +2,7 @@ import React from "react";
 import ArtCards from "../component/ArtCards";
 import AddNewArt from "../component/AddNewArt";
 import { useState, useEffect } from "react";
-import SearchBar from "../component/SearchBar";
+import HomeSearchBar from "../component/HomeSearchBar";
 import "./Home.css";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
   const addArtWork = (newArt) => {
     setArtworks((prevArts) => [...prevArts, newArt]);
   };
-  
+
   const filteredResults = artworks.filter(
     (art) =>
       art.title.toLowerCase().includes(query.toLowerCase()) ||
@@ -27,8 +27,11 @@ export default function Home() {
 
   return (
     <div className="montserrat-font">
-      <h1 className="home-header">Main Gallery</h1>
-      <AddNewArt addArtWork={addArtWork} />
+      <div className="header-section">
+        <h1 className="home-header">Main Gallery</h1>
+        <HomeSearchBar query={query} setQuery={setQuery} />
+        <AddNewArt addArtWork={addArtWork} />
+      </div>
       <p className="home-text">
         Welcome to the Main Gallery, a carefully curated collection showcasing a
         diverse array of artwork from talented artists around the world. Here,
@@ -39,7 +42,6 @@ export default function Home() {
       </p>
       <h2 className="home-subheader">Gallery</h2>
       <ArtCards artworks={filteredResults} />
-      <SearchBar query={query} setQuery={setQuery} />
     </div>
   );
 }

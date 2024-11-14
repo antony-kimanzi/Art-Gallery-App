@@ -53,7 +53,7 @@ export default function AddNewArt({addArtWork}) {
   }
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="success" onClick={handleShow}>
         Add new art
       </Button>
 

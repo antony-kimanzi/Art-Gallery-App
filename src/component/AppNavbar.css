@@ -9,8 +9,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px; /* Adjust height as needed */
-    background-color: transparent;
+    height: 60px; /* Adjust height as needed */
+    background-image: radial-gradient(#1F40B4,#0E1C3E, #030A1F);;
     display: flex;
     align-items: center;
     justify-content: space-between;

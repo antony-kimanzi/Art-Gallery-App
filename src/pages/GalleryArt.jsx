@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-export default function SingleArt() {
+export default function GalleryArt() {
     const{id} = useParams()
     const [art,setArt] = useState({})
 
