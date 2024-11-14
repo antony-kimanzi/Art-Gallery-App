@@ -47,6 +47,8 @@ export default function AddNewArt({addArtWork}) {
         setDimension("");
         setMediumUsed("");
 
+        handleClose()
+
       });
   }
   return (
