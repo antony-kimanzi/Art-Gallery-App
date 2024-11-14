@@ -10,7 +10,7 @@ export default function ArtCards({ artworks }) {
     <Row xs={1} md={4} className="g-4">
       {artworks.map((artwork) => {
         return (
-          <Link to ={`/gallery/${artwork.id}`}key={artwork.id}>
+          <Link to ={`/gallery/${artwork.id}`}key={artwork.id} style={{textDecoration:'none' ,color:'inherit'}}>
             <Card>
               <Card.Img
                 variant="top"
