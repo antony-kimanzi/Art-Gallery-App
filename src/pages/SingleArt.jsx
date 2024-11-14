@@ -15,7 +15,7 @@ export default function SingleArt() {
       .then((data) => {
         setArt(data)
     });
-    },[])
+    },[id])
 
     const handleAddArt = (e) => {
       e.preventDefault();
@@ -51,7 +51,7 @@ export default function SingleArt() {
               <Card.Text><strong>Dimension: </strong>{art.dimensions}</Card.Text>
               <Card.Text><strong>Medium used to paint: </strong>{art.medium}</Card.Text>
             </Card.Body>
-            
+
             <Button variant="primary" onClick={handleAddArt}>Add art to personal collection</Button>
           </Card>
         </Col>
