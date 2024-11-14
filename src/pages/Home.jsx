@@ -26,7 +26,7 @@ export default function Home() {
   );
 
   return (
-    <div className="main montserrat-font">
+    <div className="montserrat-font">
       <h1 className="home-header">Main Gallery</h1>
       <AddNewArt addArtWork={addArtWork} />
       <p className="home-text">
