@@ -71,66 +71,6 @@
       "year": 2019,
       "dimensions": "30 x 40 inches",
       "medium": "Acrylic on Wood"
-    },
-    {
-      "id": "161c",
-      "title": "Sunset Over the Ocean",
-      "artist": "Emily Harper",
-      "image": "https://images.unsplash.com/photo-1720465266926-0f3f0d08eca3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A stunning oil painting capturing the vibrant hues of a setting sun over a calm ocean. The colors range from deep oranges to gentle purples, creating a serene and mesmerizing view.",
-      "year": 2021,
-      "dimensions": "24 x 36 inches",
-      "medium": "Oil on Canvas"
-    },
-    {
-      "id": "f11b",
-      "title": "Abstract Thoughts",
-      "artist": "Liam Chen",
-      "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
-      "year": 2019,
-      "dimensions": "30 x 40 inches",
-      "medium": "Acrylic on Wood"
-    },
-    {
-      "id": "f7e5",
-      "title": "Abstract Thoughts",
-      "artist": "Liam Chen",
-      "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
-      "year": 2019,
-      "dimensions": "30 x 40 inches",
-      "medium": "Acrylic on Wood"
-    },
-    {
-      "id": "ed12",
-      "title": "Abstract Thoughts",
-      "artist": "Liam Chen",
-      "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
-      "year": 2019,
-      "dimensions": "30 x 40 inches",
-      "medium": "Acrylic on Wood"
-    },
-    {
-      "id": "1f8d",
-      "title": "Abstract Thoughts",
-      "artist": "Liam Chen",
-      "image": "https://plus.unsplash.com/premium_photo-1670455445003-62a3dd6d5afe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A bold and thought-provoking piece that uses shapes and colors to represent the complexity of human thoughts. The mix of sharp lines and soft curves evokes both chaos and harmony.",
-      "year": 2019,
-      "dimensions": "30 x 40 inches",
-      "medium": "Acrylic on Wood"
-    },
-    {
-      "id": "f987",
-      "title": "Sunset Over the Ocean",
-      "artist": "Emily Harper",
-      "image": "https://images.unsplash.com/photo-1720465266926-0f3f0d08eca3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A stunning oil painting capturing the vibrant hues of a setting sun over a calm ocean. The colors range from deep oranges to gentle purples, creating a serene and mesmerizing view.",
-      "year": 2021,
-      "dimensions": "24 x 36 inches",
-      "medium": "Oil on Canvas"
     }
   ]
 }

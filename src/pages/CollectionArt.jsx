@@ -2,8 +2,12 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./CollectionArt.css";
+import {toast} from 'react-toastify';
+import {Button} from 'react-bootstrap';
+import { useNavigate } from "react-router-dom";
 
 export default function CollectionArt() {
+  const nav = useNavigate();
   const { id } = useParams();
   const [art, setArt] = useState({});
 
@@ -14,7 +18,17 @@ export default function CollectionArt() {
         setArt(data);
       });
   }, [id]);
-
+  
+  function handleDelete() {
+    fetch(`http://localhost:3000/personalcollections/${id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then(() => {
+        nav("/personalcollection");
+        toast.success("Art deleted successfully");
+      });
+  }
   return (
     <div className="art-page montserrat-font">
       <h1 className="header">
@@ -46,6 +60,13 @@ export default function CollectionArt() {
             <strong className="cormorant-garamond-regular-italic">Medium used: </strong>
             {art.medium}
           </p>
+          <Button
+              variant="danger"
+              className="delete-button"
+              onClick={handleDelete}
+            >
+              Remove Art
+            </Button>
         </div>
       </div>
     </div>

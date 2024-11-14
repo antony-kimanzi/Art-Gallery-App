@@ -28,7 +28,7 @@ export default function PersonalCollection() {
       <Row xs={1} md={4} className="g-4">
         {collection.map((artwork) => {
           return (
-            <Link to={`/personalcollection/${artwork.id}`} key={artwork.id}>
+            <Link to={`/personalcollection/${artwork.id}`} key={artwork.id} style={{textDecoration:'none' ,color:'inherit'}} >
               <Card>
                 <Card.Img
                   variant="top"

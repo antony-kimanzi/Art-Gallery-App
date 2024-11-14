@@ -3,6 +3,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
+import {toast} from 'react-toastify';
 
 export default function AddNewArt({addArtWork}) {
   const [addArt, setAddArt] = useState(false);
@@ -37,7 +38,7 @@ export default function AddNewArt({addArtWork}) {
       .then((res) => res.json())
       .then((newArt) => {
         addArtWork(newArt);
-        console.log("success");
+        toast.success("Art added successfully");
 
         setArtTitle("");
         setArtist("");
