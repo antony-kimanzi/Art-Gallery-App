@@ -20,7 +20,7 @@ export default function AddNewArt({addArtWork}) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/artworks", {
+    fetch("https://art-gallery-app-p7bu.onrender.com/artworks", {
       method: "POST",
       body: JSON.stringify({
         title: artTitle,

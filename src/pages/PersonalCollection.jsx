@@ -11,7 +11,7 @@ export default function PersonalCollection() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/personalcollections")
+    fetch("https://art-gallery-app-p7bu.onrender.com/personalcollections")
       .then((res) => res.json())
       .then((data) => setCollection(data));
   }, []);

@@ -10,7 +10,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/artworks")
+    fetch("https://art-gallery-app-p7bu.onrender.com/artworks")
       .then((res) => res.json())
       .then((data) => setArtworks(data));
   }, []);
