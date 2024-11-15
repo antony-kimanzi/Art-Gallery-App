@@ -12,7 +12,7 @@ export default function CollectionArt() {
   const [art, setArt] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:3000/personalcollections/${id}`)
+    fetch(`https://art-gallery-app-p7bu.onrender.com/personalcollections/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setArt(data);
@@ -20,7 +20,7 @@ export default function CollectionArt() {
   }, [id]);
   
   function handleDelete() {
-    fetch(`http://localhost:3000/personalcollections/${id}`, {
+    fetch(`https://art-gallery-app-p7bu.onrender.com/personalcollections/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

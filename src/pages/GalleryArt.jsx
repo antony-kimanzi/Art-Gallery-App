@@ -11,13 +11,13 @@ export default function GalleryArt() {
   const [isInCollection, setIsInCollection] = useState(false); 
 
   useEffect(() => {
-    fetch(`http://localhost:3000/artworks/${id}`)
+    fetch(`https://art-gallery-app-p7bu.onrender.com/artworks/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setArt(data);
       });
 
-    fetch(`http://localhost:3000/personalcollections`)
+    fetch(`https://art-gallery-app-p7bu.onrender.com/personalcollections`)
       .then((res) => res.json())
       .then((personalCollection) => {
 
@@ -32,7 +32,7 @@ export default function GalleryArt() {
     e.preventDefault();
     if (isInCollection) return; // Do nothing if already in collection
   
-    fetch("http://localhost:3000/personalcollections", {
+    fetch("https://art-gallery-app-p7bu.onrender.com/personalcollections", {
       method: "POST",
       body: JSON.stringify({
         id: art.id, // Include the id to match with artworks
@@ -56,7 +56,7 @@ export default function GalleryArt() {
   };
   
   const handleDelete = () => {
-    fetch(`http://localhost:3000/artworks/${id}`, {
+    fetch(`https://art-gallery-app-p7bu.onrender.com/artworks/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
