@@ -29,6 +29,6 @@ email :: nadifo.ismail@student.moringaschool.com
 email :: asmaa.abdi@student.moringaschool.com
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/antony-kimanzi/fitness-progress-app/blob/main/LICENSE.md)*
+*LIcenced under the [MT-licence](https://github.com/antony-kimanzi/Art-Gallery-App/blob/main/LICENSE.md)*
 
-Copyright (c) 2024 **Antony Wambugu**
+Copyright (c) 2024 **Antony Wambugu, Nadifo Ismail and Asmaa Abdi**
