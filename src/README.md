@@ -12,7 +12,7 @@ Description: A web application designed to help users track their fitness progre
 * And you are all done
 
 ## Live server
-* You can view the web live on [art-gallery-app](https://antony-kimanzi.github.io/fitness-progress-app/)
+* You can view the web live on [art-gallery-app](https://gallerysphere.netlify.app)
 
 ## Link to the Presentation Slideshow
 You can access the slide of the presentation using this link [art-gallery-app-google-slideshow](https://docs.google.com/presentation/d/1K44UhKqOJWeV1UnDtUJl-n75F5mTr_QDUITejgVjszU/edit?usp=sharing)
